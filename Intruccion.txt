@@ -1,4 +1,5 @@
 sudo mkdir IoT
+cd IoT
 sudo touch install.sh
 sudo nano install.sh 
 //copy the content of install.sh to this new file created.

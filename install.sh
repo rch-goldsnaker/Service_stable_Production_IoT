@@ -257,7 +257,7 @@ sudo rm install_docker.sh
 sudo curl -L "https://github.com/docker/compose/releases/download/1.28.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 sudo git clone https://github.com/rch-goldsnaker/Service_stable_Production_IoT
-sudo mv IoT_Service services
+sudo mv Service_stable_Production_IoT services
 
 
 cd services
@@ -284,7 +284,7 @@ sudo sh -c " echo 'EMQX_DEFAULT_APPLICATION_SECRET=${EMQX_DEFAULT_APPLICATION_SE
 
 
 sudo git clone https://github.com/rch-goldsnaker/App_stable_IoT
-sudo mv IoT_App  app
+sudo mv App_stable_IoT  app
 
 cd app
 
