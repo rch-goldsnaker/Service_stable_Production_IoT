@@ -1,0 +1,6 @@
+sudo mkdir IoT
+sudo touch install.sh
+sudo nano install.sh 
+//copy the content of install.sh to this new file created.
+sudo chmod 777 install.sh
+sudo ./install.sh
