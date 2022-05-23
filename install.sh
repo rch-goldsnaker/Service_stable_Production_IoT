@@ -326,6 +326,7 @@ sudo sh -c "echo 'MQTT_PORT=${MQTT_PORT}' >> $filename"
 sudo sh -c "echo 'MQTT_HOST=${DOMAIN}' >> $filename"
 sudo sh -c "echo 'MQTT_PREFIX=${WSPREFIX}' >> $filename"
 sudo sh -c " echo 'SSLREDIRECT=${SSLREDIRECT}' >> $filename"
+sudo sh -c "echo '' >> $filename"
 
 # F R O N T
 sudo sh -c "echo '# W E B S O C K E T S' >> $filename"
