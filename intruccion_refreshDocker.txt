@@ -1,0 +1,13 @@
+//stop all containers in docker.
+sudo docker stop $(docker ps -a -q)
+
+//remove all containers in docker.
+sudo docker rm $(docker ps -a -q)
+
+//go to folder where is services.
+cd services
+
+//
+sudo docker-compose -f docker_node_install.yml up
+sudo docker-compose -f docker_nuxt_build.yml up
+sudo docker-compose -f docker_compose_production.yml up -d
